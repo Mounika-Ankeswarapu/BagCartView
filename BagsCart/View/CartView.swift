@@ -18,13 +18,13 @@ struct CartView: View {
                 Button(action: {}) {
                     Image(systemName: "chevron.left")
                         .font(.system(size: 26, weight: .heavy))
-                        .foregroundColor(.black)
+                        .foregroundColor(Color.steel)
                    
                 }
                 Text("My Cart")
                     .font(.title)
                     .fontWeight(.heavy)
-                    .foregroundColor(.black)
+                    .foregroundColor(.steel)
                 Spacer()
              
             }

@@ -34,7 +34,7 @@ struct ItemView: View {
                 Image(item.image)
                     .resizable()
                     .aspectRatio(contentMode: .fill)
-                    .frame(width: 110, height: 110)
+                    .frame(width: 120, height: 120)
                     .cornerRadius(15)
                     .padding()
                 VStack(alignment: .leading, spacing: 5){
@@ -46,7 +46,7 @@ struct ItemView: View {
                     
                     Text(item.details)
                         .fontWeight(.regular)
-                        .foregroundColor(.black)
+                        .foregroundColor(.steel)
                     
                     HStack(spacing: 15) {
                         Text(getPrice(value: item.price))
